@@ -38,7 +38,7 @@ This module requires functions provided by the Example42 Puppi module.
 * Enable EPEL and PuppetLabs repos
 
         class { 'yum':
-          extrarepo => [ 'epel' , 'puppetlabs' ],
+          extrarepo => [ 'epel', 'puppetlabs' ],
         }
 
 
